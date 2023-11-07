@@ -1,13 +1,10 @@
 import './App.css';
-import FAQ from './Faq';
-import Faq from './Faq';
-import CustomizedTimeline from './Timeline';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className='min-h-screen flex flex-col'>
-      <CustomizedTimeline/>
-      <FAQ/>
+      <Home/>
     </div>
   )
 }
