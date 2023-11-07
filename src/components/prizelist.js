@@ -1,7 +1,7 @@
-import icon from './1stp.svg'
-import best from './best.svg'
-import poly from './poly.svg'
-import replit from './replit.svg'
+import icon from '../assets/1stp.svg'
+import best from '../assets/best.svg'
+import poly from '../assets/poly.svg'
+import replit from '../assets/replit.svg'
 const prizelist =[
  {
     id:0,
