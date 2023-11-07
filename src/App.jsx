@@ -1,12 +1,11 @@
 import About from './components/About';
 import './App.css';
-import Prizes from './components/Prizes';
+import Home from './components/Home';
 
 function App() {
   return (
-    <div className='min-h-screen flex flex-col bg-slate-900'>
-      <About/>
-      <Prizes/>
+    <div className='min-h-screen flex flex-col'>
+      <Home/>
     </div>
   )
 }
