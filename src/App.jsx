@@ -1,3 +1,4 @@
+import About from './components/About';
 import './App.css';
 import Home from './components/Home';
 
