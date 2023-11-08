@@ -1,116 +1,38 @@
-import * as React from 'react';
-import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
-import TimelineConnector from '@mui/lab/TimelineConnector';
-import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-import TimelineDot from '@mui/lab/TimelineDot';
-import Typography from '@mui/material/Typography';
-import TurnedInNotIcon from '@mui/icons-material/TurnedInNot';
-import TurnedInIcon from '@mui/icons-material/TurnedIn';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import React from 'react';
 
-export default function CustomizedTimeline() {
+const CustomizedTimeline = () => {
+  const events = [
+    {
+      date: "15 December 2023",
+      title: "Abstract Submission",
+      description: "Description of event 1.",
+    },
+    {
+      date: "15 January 2023",
+      title: "Announcement for Shortlisting 20 Teams",
+      description: "Description of event 2.",
+    },
+  ];
+
   return (
-    <div className="bg-blue-900 p-4 rounded-3xl w-96 md:w-full mx-auto">
-      <div className='mt-5 mb-5 font-bold text-2xl text-black flex flex-row justify-center'>SCHEDULE</div>
-      <Timeline position="alternate">
-        <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: 'auto 0' }}
-            align="right"
-            variant="body2"
-            color="text.black"
-            className="text-white"
-          >
-            20th Nov 2022
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineConnector />
-            <TimelineDot className="bg-white" color="primary">
-              <TurnedInNotIcon className='text-black'/>
-            </TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent sx={{ py: '12px', px: 2 }}>
-            <Typography variant="h6" component="span" className='text-white '>
-              Abstract Submission
-            </Typography>
-            <Typography className="text-gray-500">Submit your Abstract through Devfolio portal</Typography>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem >
-          <TimelineOppositeContent
-            sx={{ m: 'auto 0' }}
-            variant="body2"
-            color="text.black"
-            className="text-white"
-          >
-            3rd Dec 2022
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineConnector/>
-            <TimelineDot color="primary">
-              <TurnedInIcon className="text-black"/>
-            </TimelineDot>
-            <TimelineConnector className='md:mr-0' />
-          </TimelineSeparator>
-          <TimelineContent sx={{ py: '12px', px: 2 }}>
-            <Typography variant="h6" component="span" className='text-white'>
-              Abstract Submission Last Date
-            </Typography>
-            <Typography className="text-gray-500">Final date for abstract submission</Typography>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: 'auto 0' }}
-            align="right"
-            variant="body2"
-            color="text.black"
-            className="text-white"
-          >
-            9th Dec 2022
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineConnector />
-            <TimelineDot className="bg-white" color='primary'>
-              <CheckCircleIcon className='text-white'/>
-            </TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent sx={{ py: '12px', px: 2 }}>
-            <Typography variant="h6" component="span" className='text-white'>
-              Check-in for participants
-            </Typography>
-            <Typography className="text-gray-500">Selected students can participate in the offline hackathon at TKM College of Engineering</Typography>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: 'auto 0' }}
-            variant="body2"
-            color="text.black"
-            className="text-white"
-          >
-            11th Dec 2022
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineConnector />
-            <TimelineDot className="bg-white" color="primary">
-              <CheckCircleIcon className="text-black"/>
-            </TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent sx={{ py: '12px', px: 2 }}>
-            <Typography variant="h6" component="span" className='text-white'>
-              Hackathon Ends
-            </Typography>
-            <Typography className="text-gray-500">Final day of the hackathon.</Typography>
-          </TimelineContent>
-        </TimelineItem>
-      </Timeline>
+    <div className="flex justify-center mt-10 mb-10 container mx-auto p-4">
+      <div className="relative">
+        <div className="border-r-2 border-blue-500 absolute h-full left-4 top-4"></div>
+        {events.map((event, index) => (
+          <div key={index} className="mb-4">
+            <div className="flex items-center mb-2">
+              <div className="bg-blue-500 text-white rounded-full h-8 w-8 flex items-center justify-center">
+              </div>
+              <div className="ml-4 text-xl text-white transition duration-300 ease-in transform hover:scale-105">{event.date}</div>
+            </div>
+            <div className="ml-12">
+              <h2 className="text-xl md:text-2xl font-semibold text-indigo-700 ">{event.title}</h2>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
-}
+};
+
+export default CustomizedTimeline;
