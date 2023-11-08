@@ -1,6 +1,8 @@
 import React, {useEffect,useRef,useState} from "react";
 import RINGS from 'vanta/dist/vanta.rings.min.js';
 import InfoIcon from "@mui/icons-material/Info";
+import About from "./About";
+import Prizes from "./Prizes";
 
 const Home = () => {
     const [vantaEffect, setVantaEffect] = useState(null);
@@ -36,6 +38,8 @@ const Home = () => {
                     <div><button className="rounded-full bg-blue-700 hover:bg-white hover:text-black py-3 px-5 md:px-8 text-xl">Register Now</button></div>
                 </div>
             </div>
+            <About/>
+            <Prizes/>
         </div>
     );
 };
