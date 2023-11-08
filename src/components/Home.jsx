@@ -3,6 +3,11 @@ import RINGS from 'vanta/dist/vanta.rings.min.js';
 import InfoIcon from "@mui/icons-material/Info"
 import CustomizedTimeline from './Timeline.jsx';
 import FAQ from './Faq.jsx'
+import About from "./About";
+import Prizes from "./Prizes";
+import Logo1 from "../assets/logos/full logo (11).png";
+import Logo2 from "../assets/logos/IIC (2).png";
+import Logo3 from "../assets/logos/tkm-logo.png";
 
 const Home = () => {
     const [vantaEffect, setVantaEffect] = useState(null);
@@ -33,13 +38,22 @@ const Home = () => {
                     <span>Rules & guidelines</span>
                 </a>
                 <div className="mt-40 md:w-[35rem] flex flex-col gap-4 md:pl-10">
+                    <div className="flex justify-center">
+                        <div className="flex gap-4">
+                            <img src={Logo1} alt="logo1" className="h-[35px]"></img>
+                            <img src={Logo2} alt="logo2" className="h-[35px]"></img>
+                            <img src={Logo3} alt="logo3" className="h-[35px]"></img>
+                        </div>
+                    </div>
                     <div className="text-[3.3rem] leading-tight font-bold md:text-8xl bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">Founder's Day Hackathon</div>
-                    <div className="text-2xl md:text-3xl font-semibold"> Nov 7 | 8 | 9</div>
+                    <div className="text-2xl md:text-3xl font-semibold">Feb 17 | 18</div>
                     <div><button className="rounded-full bg-blue-700 hover:bg-white hover:text-black py-3 px-5 md:px-8 text-xl">Register Now</button></div>
                 </div>
             </div>
             <CustomizedTimeline/>
             <FAQ/>
+            <About/>
+            <Prizes/>
         </div>
     );
 };
