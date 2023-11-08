@@ -49,7 +49,7 @@ function FAQ() {
               {faqData.map((faqItem) => (
                 <li
                   key={faqItem.id}
-                  className="bg-white my-2 shadow-lg bg-gray-700"
+                  className="my-2 shadow-lg bg-gray-800"
                 >
                   <h2
                     onClick={() => handleClick(faqItem.id)}
