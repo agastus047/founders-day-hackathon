@@ -3,7 +3,7 @@ import pic from '../assets/hack.png'
 const About = () =>
 {
     return (
-        <div className="w-full  text-white lg:px-20 px-4 py-10">
+        <div className="w-full  text-white lg:px-20 px-4 py-10 mt-6">
         <div className="flex bg-gray-800 w-full flex-col lg:flex-row justify-around h-full">
             <div className=" text-left flex flex-col h-full w-full lg:w-1/2 p-10 gap-5">
                 <h7 className="font-bold text-5xl mb-2">About Us</h7>
