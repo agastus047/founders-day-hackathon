@@ -38,8 +38,8 @@ function FAQ() {
   ];
 
   return (
-    <body className="h-screen bg-[#202428]">
-      <main className="p-5 bg-light-blue">
+    <div className="bg-[#202428]">
+      <div className="p-5 bg-light-blue">
         <div className="flex justify-center items-start my-2">
           <div className="w-full sm:w-10/12 md:w-1/2 my-1">
             <h2 className="text-2xl md:text-4xl font-semibold text-white mb-2">
@@ -79,8 +79,8 @@ function FAQ() {
             </ul>
           </div>
         </div>
-      </main>
-    </body>
+      </div>
+    </div>
   );
 }
 
