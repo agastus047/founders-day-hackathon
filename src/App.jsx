@@ -12,7 +12,7 @@ function App() {
     AOS.refresh();
   }, [])
   return (
-    <div className='min-h-screen flex flex-col'>
+    <div className='min-h-screen flex flex-col font-poppins'>
       <Home/>
     </div>
   )
