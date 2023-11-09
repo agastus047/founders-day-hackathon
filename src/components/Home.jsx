@@ -1,6 +1,8 @@
 import React, {useEffect,useRef,useState} from "react";
 import RINGS from 'vanta/dist/vanta.rings.min.js';
-import InfoIcon from "@mui/icons-material/Info";
+import InfoIcon from "@mui/icons-material/Info"
+import CustomizedTimeline from './Timeline.jsx';
+import FAQ from './Faq.jsx'
 import About from "./About";
 import Prizes from "./Prizes";
 import Logo1 from "../assets/logos/full logo (11).png";
@@ -50,6 +52,8 @@ const Home = () => {
             </div>
             <About/>
             <Prizes/>
+            <CustomizedTimeline/>
+            <FAQ/>
         </div>
     );
 };
