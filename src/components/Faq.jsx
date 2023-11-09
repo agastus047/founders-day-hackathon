@@ -30,7 +30,7 @@ function FAQ() {
   ];
 
   return (
-    <div className="mt-14 bg-[#202428]">
+    <div data-aos="fade" className="bg-[#202428]">
       <div className="p-5 bg-light-blue">
         <div className="flex justify-center items-start my-2">
           <div className="w-full sm:w-10/12 md:w-1/2 my-1">

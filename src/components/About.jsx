@@ -3,10 +3,10 @@ import pic from '../assets/hack.png'
 const About = () =>
 {
     return (
-        <div className="w-full  text-white lg:px-20 px-4 py-10 mt-6">
+        <div data-aos="fade" className="w-full  text-white lg:px-20 px-4 py-10 mt-6">
         <div className="flex bg-gray-800 w-full flex-col lg:flex-row justify-around h-full">
             <div className=" text-left flex flex-col h-full w-full lg:w-1/2 p-10 gap-5">
-                <h7 className="font-bold text-5xl mb-2">About Us</h7>
+                <h1 className="font-bold text-5xl mb-2">About Us</h1>
                 <p className="text-start">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy 
                 text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has 
