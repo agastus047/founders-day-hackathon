@@ -2,7 +2,7 @@ import React from 'react';
 
 const CustomizedTimeline = () => {
   return (
-    <div data-aos="fade" class="h-auto w-full flex justify-center items-center">
+    <div data-aos="fade" className="h-auto w-full flex justify-center items-center">
       <div className="max-w-7xl mx-auto w-full grid grid-cols-9 px-2">
         <div className="col-span-9 text-center mb-12 mt-8">
           <h2 className="text-white font-bold text-5xl text-center my-4 ">TIMELINE</h2>
