@@ -40,9 +40,9 @@ const Home = () => {
                 <div className="mt-40 md:w-[35rem] flex flex-col gap-4 md:pl-10">
                     <div className="flex justify-center">
                         <div className="flex gap-4">
+                            <img src={Logo3} alt="logo3" className="h-[35px]"></img>
                             <img src={Logo1} alt="logo1" className="h-[35px]"></img>
                             <img src={Logo2} alt="logo2" className="h-[35px]"></img>
-                            <img src={Logo3} alt="logo3" className="h-[35px]"></img>
                         </div>
                     </div>
                     <div className="text-[3.3rem] leading-tight font-bold md:text-8xl bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">Founder's Day Hackathon</div>
