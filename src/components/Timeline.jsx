@@ -15,7 +15,7 @@ const CustomizedTimeline = () => {
   ];
 
   return (
-    <div className="flex justify-center mt-20 mb-10 container mx-auto p-4">
+    <div data-aos="fade" className="flex justify-center mt-20 mb-10 container mx-auto p-4">
       <div className="relative">
         <div className="border-r-2 border-blue-700 absolute h-full left-4 top-4"></div>
         {events.map((event, index) => (
