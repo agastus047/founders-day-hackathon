@@ -8,6 +8,7 @@ import Prizes from "./Prizes";
 import Logo1 from "../assets/logos/full logo (11).png";
 import Logo2 from "../assets/logos/IIC (2).png";
 import Logo3 from "../assets/logos/tkm-logo.png";
+import Footer from "./Footer.jsx";
 
 const Home = () => {
     const [vantaEffect, setVantaEffect] = useState(null);
@@ -54,6 +55,7 @@ const Home = () => {
             <Prizes/>
             <CustomizedTimeline/>
             <FAQ/>
+            <Footer/>
         </div>
     );
 };

@@ -1,7 +1,6 @@
 import icon from '../assets/1stp.svg'
 import best from '../assets/best.svg'
-import poly from '../assets/poly.svg'
-import replit from '../assets/replit.svg'
+
 const prizelist =[
  {
     id:0,
@@ -33,18 +32,7 @@ const prizelist =[
     title:'Best Hardware',
     prize:'₹10000',
  },
- {
-    id:5,
-    iconlink:poly,
-    title:'Best Use Of Polygon',
-    prize:'₹15000',
- },
- {
-    id:6,
-    iconlink:replit,
-    title:'Best use of Replit',
-    prize:'₹15000',
- },
+ 
 
 
 ]
