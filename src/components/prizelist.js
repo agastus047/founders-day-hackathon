@@ -1,6 +1,5 @@
 import icon from '../assets/1stp.svg'
 import best from '../assets/best.svg'
-
 const prizelist =[
  {
     id:0,
