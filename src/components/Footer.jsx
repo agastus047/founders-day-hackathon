@@ -9,7 +9,7 @@ const Footer = () =>
 {
     return(
         <div className="flex flex-col w-full justify-center h-min bg-gray-800 text-slate-400 ">
-        <div className='flex justify-center my-4'><img src={iedc} className='h-10'/></div>
+        <a href='https://www.iedctkmce.com/'><div className='flex justify-center my-4'><img src={iedc} className='h-10'/></div></a>
             <div className="flex gap-4 justify-evenly mx-6 my-6">
               <a href='https://www.instagram.com/iedc_tkmce/'> <InstagramIcon sx={{ fontSize: 40}} className='hover:text-pink-500'/></a> 
               <a href='"https://www.linkedin.com/company/iedc-tkmce/?originalSubdomain=in"'> <LinkedInIcon sx={{ fontSize: 40 }} className='hover:text-blue-600'/></a>
