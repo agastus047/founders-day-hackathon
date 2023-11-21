@@ -9,6 +9,7 @@ import Logo1 from "../assets/logos/full logo (11).png";
 import Logo2 from "../assets/logos/IIC (2).png";
 import Logo3 from "../assets/logos/tkm-logo.png";
 import Footer from "./Footer.jsx";
+import LogoContainer from "./Logos.jsx";
 
 const Home = () => {
     const [vantaEffect, setVantaEffect] = useState(null);
@@ -68,6 +69,7 @@ const Home = () => {
                     ></div> */}
                 </div>
             </div>
+            <LogoContainer/>
             <About/>
             <Prizes/>
             <CustomizedTimeline/>
