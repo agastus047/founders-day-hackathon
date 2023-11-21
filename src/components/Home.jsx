@@ -31,6 +31,17 @@ const Home = () => {
         }
     },[vantaEffect]);
 
+    // useEffect(() => {
+    //     const script = document.createElement('script');
+    //     script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    //     script.async = true;
+    //     script.defer = true;
+    //     document.body.appendChild(script);
+    //     return () => {
+    //         document.body.removeChild(script);
+    //     }
+    // },[]);
+
     return(
         <div className="bg-[#202428]">
             <div ref={myRef} className="min-h-screen p-5 text-white">
@@ -49,6 +60,12 @@ const Home = () => {
                     <div className="text-[3.3rem] leading-tight font-bold md:text-8xl bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">Founder's Day Hackathon</div>
                     <div className="text-2xl md:text-3xl font-semibold">Feb 17 | 18</div>
                     <div><button className="rounded-full bg-blue-700 hover:bg-white hover:text-black py-3 px-5 md:px-8 text-xl">Register Now</button></div>
+                    {/* <div 
+                        className="apply-button" 
+                        data-hackathon-slug="hack4tkm" 
+                        data-button-theme="light"
+                        style={{height: 44, width: 312}}
+                    ></div> */}
                 </div>
             </div>
             <About/>
