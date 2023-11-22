@@ -68,7 +68,7 @@ function FAQ() {
     <div data-aos="fade" className="bg-[#202428]">
       <div className="p-5 bg-light-blue">
         <div className="flex justify-center items-start my-2">
-          <div className="w-full sm:w-10/12 md:w-1/2 my-1">
+          <div className="w-full sm:w-10/12 md:w-128 my-1">
             <h2 className="text-5xl text-center mb-4 font-semibold text-white mb-2">
               FAQ
             </h2>
