@@ -48,7 +48,7 @@ const Home = () => {
     return(
         <div className="bg-[#202428]">
             <div ref={myRef} className="min-h-screen p-5 text-white">
-                <a href="" className="hidden text-white md:flex md:justify-end md:items-center md:gap-2">
+                <a href="https://seemly-jury-e03.notion.site/HACK4TKM-HACKATHON-6a46f80f7af24ed6bdfcd73806db808e#7857277b7a5846ac92960124e6a0a367" target="_blank" className="hidden text-white md:flex md:justify-end md:items-center md:gap-2">
                     <InfoIcon/>
                     <span>Rules & guidelines</span>
                 </a>
