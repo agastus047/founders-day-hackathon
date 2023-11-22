@@ -14,18 +14,53 @@ function FAQ() {
   const faqData = [
     {
       id: 1,
-      question: "Question 1",
-      answer: "Answer 1",
+      question: "Can I Submit Past Projects?",
+      answer: "We highly recommend submitting projects that you constructed on-site during hackathon's 36 hours.",
     },
     {
       id: 2,
-      question: "Question 2",
-      answer: "Answer 2",
+      question: "Is there a theme for this hackathon?",
+      answer: "Yes, the theme is Smart and Sustainable Designs for Agriculture,Food and Rural Development.",
     },
     {
       id: 3,
-      question: "Question 3",
-      answer: "Answer 3",
+      question: "How many prizes can a team acquire?",
+      answer: "A team can only acquire one prize, including the main prizes and the specific tracks.",
+    },
+    {
+      id: 4,
+      question: "Will judgement be separate for hardware and software?",
+      answer: "No we value the idea and product that can have the most significant impact and adhere the best of the theme.",
+    },
+    {
+      id: 5,
+      question: "What are the criteria for participation?",
+      answer: "The participant must be a student and a non working proffessional.",
+    },
+    {
+      id: 6,
+      question: "Should I be physically present for hackathon?",
+      answer: "It is mandatory to be physically present at the venue for the hacakathon.",
+    },
+    {
+      id: 7,
+      question: "How many team members are allowed?",
+      answer: "There should be minimum 2-4 per team.",
+    },
+    {
+      id: 8,
+      question: "Is this hackathon only for students of TKM?",
+      answer: "No, this hacakathon is open for all students.",
+    },
+    {
+      id: 9,
+      question: "Is there a registration fee?",
+      answer: "The registration will be completely free of cost.",
+    },
+    {
+      id: 10,
+      question: "Will there be shortlisting for the offline hackathon?",
+      answer: "Yes, 20 teams will be selected based on the abstract submitted.",
     },
   ];
 
@@ -48,7 +83,7 @@ function FAQ() {
                       {faqItem.question}
                     </span>
                     <svg
-                      className={`fill-current text-white h-6 w-6 transform transition-transform duration-300 ${
+                      className={`fill-current text-white h-6 w-6 transform transition-transform duration-500 ${
                         openId === faqItem.id ? "rotate-180" : "rotate-0"
                       }`}
                       viewBox="0 0 20 20"
