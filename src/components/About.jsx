@@ -9,7 +9,7 @@ const About = () =>
                 <h1 className="font-bold text-5xl mb-2 underline underline-offset-8 decoration-dashed">About <span className='bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>Hack4TKM</span></h1>
                 <p className="text-start text-xl leading-relaxed">
                 Amidst the celebration of TKM College of Engineering's Founder’s Day 2024, 
-                get ready to ignite the spark of innovation with SMART FARMATHON – a 
+                get ready to ignite the spark of innovation with Hack4TKM – a 
                 national-level hackathon, in collaboration with Innovation and Entrepreneurship
                  Development Cell TKMCE and Institute's Innovation Council TKMCE. The event is
                   a creative canvas for students across India to showcase their problem-solving 
