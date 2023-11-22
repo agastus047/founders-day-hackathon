@@ -19,18 +19,7 @@ const prizelist =[
     title:'Third Prize',
     prize:'₹30000',
  },
- {
-    id:3,
-    iconlink:best,
-    title:'Best Software',
-    prize:'₹30000',
- },
- {
-    id:4,
-    iconlink:best,
-    title:'Best Hardware',
-    prize:'₹30000',
- },
+ 
  {
     id:5,
     iconlink:best,
