@@ -1,4 +1,4 @@
-import React, {useEffect,useRef,useState} from "react";
+import  {useEffect,useRef,useState} from "react";
 import RINGS from 'vanta/dist/vanta.rings.min.js';
 import InfoIcon from "@mui/icons-material/Info"
 import CustomizedTimeline from './Timeline.jsx';
@@ -10,7 +10,7 @@ import Logo2 from "../assets/logos/IIC (2).png";
 import Logo3 from "../assets/logos/tkm-logo.png";
 import Footer from "./Footer.jsx";
 import LogoContainer from "./Logos.jsx";
-import Theme from "./Theme.jsx";
+
 
 
 const Home = () => {
@@ -60,7 +60,7 @@ const Home = () => {
                             <img src={Logo2} alt="logo2" className="h-[35px]"></img>
                         </div>
                     </div>
-                    <div className="text-[3.3rem] leading-tight font-bold md:text-8xl bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">Founder's Day Hackathon</div>
+                    <div className="text-[3.3rem] leading-tight font-bold md:text-8xl bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">HACK4TKM</div>
                     <div className="text-2xl md:text-3xl font-semibold">Feb 17 | 18</div>
                     <div><button className="rounded-full bg-blue-700 hover:bg-white hover:text-black py-3 px-5 md:px-8 text-xl">Register Now</button></div>
                     {/* <div 
