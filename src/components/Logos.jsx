@@ -14,7 +14,7 @@ const LogoContainer = () => {
         <div className='md:hidden text-xl text-white'>
             Season Partners 🤝
         </div>
-        <a href="https://polygon.technology/"><img
+{/*         <a href="https://polygon.technology/"><img
           className="md:ml-4 w-48 h-24"
           src={Polygon} 
           alt="POLYGON LOGO"
@@ -23,7 +23,7 @@ const LogoContainer = () => {
           className="md:ml-4 w-48 h-24"
           src={Replit} 
           alt="REPLIT LOGO"
-        /></a>
+        /></a> */}
       </div>
     </div>
   );
