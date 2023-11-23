@@ -14,8 +14,8 @@ const Footer = () =>
               <a href='https://www.instagram.com/iedc_tkmce/'> <InstagramIcon sx={{ fontSize: 40}} className='hover:text-pink-500'/></a> 
               <a href='"https://www.linkedin.com/company/iedc-tkmce/?originalSubdomain=in"'> <LinkedInIcon sx={{ fontSize: 40 }} className='hover:text-blue-600'/></a>
               <a href="https://twitter.com/iedctkmce/"><TwitterIcon sx={{ fontSize: 40 }} className='hover:text-blue-600'/></a>
-              <a href='"https://www.facebook.com/tkmiedc'><FacebookIcon sx={{ fontSize: 40 }} className='hover:text-blue-600'/></a> 
-              <a href='" https://wa.me/+919207408109"'> <WhatsAppIcon sx={{ fontSize: 40 }} className='hover:text-green-500'/></a>
+{/*               <a href='"https://www.facebook.com/tkmiedc'><FacebookIcon sx={{ fontSize: 40 }} className='hover:text-blue-600'/></a> 
+              <a href='" https://wa.me/+919207408109"'> <WhatsAppIcon sx={{ fontSize: 40 }} className='hover:text-green-500'/></a> */}
             </div>
             <hr className=" h-px bg-gray-400 border-none lg:mx-4 lg:mb-2"></hr>
             <div className="w-full flex flex-col items-center">
