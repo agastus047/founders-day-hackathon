@@ -1,24 +1,7 @@
-import icon from '../assets/1stp.svg'
+
 import best from '../assets/best.svg'
 const prizelist =[
- {
-    id:0,
-    iconlink:icon,
-    title:'First Prize',
-    prize:'₹1 lakh',
- },
- {
-    id:1,
-    iconlink:icon,
-    title:'Second Prize',
-    prize:'₹50000',
- },
- {
-    id:2,
-    iconlink:icon,
-    title:'Third Prize',
-    prize:'₹30000',
- },
+ 
  
  {
     id:5,
