@@ -3,7 +3,7 @@ import './text.css';
 
 const Container = () => {
   return (
-    <div data-aos='fade-up' className="mb-5 md:mt-10 md:mb-10 flex flex-col md:flex-row gap-5 md:gap-20 justify-center items-center">
+    <div data-aos='fade-up' className="bg-[#202428] mb-5 md:mt-10 md:mb-10 flex flex-col md:flex-row gap-5 md:gap-20 justify-center items-center">
       <div className="w-full md:w-auto p-4">
         <div className="text-white p-2">
           <p className="text-shadows font-bold text-center text-[#1a3369] text-5xl md:text-5xl lg:text-7xl">36 HOURS</p>
