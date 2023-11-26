@@ -2,13 +2,6 @@
 import best from '../assets/best.svg'
 const prizelist =[
  
- 
- {
-    id:5,
-    iconlink:best,
-    title:'Innovation By TKM',
-    prize:'₹30000',
- },
  {
    id:6,
    iconlink:best,
