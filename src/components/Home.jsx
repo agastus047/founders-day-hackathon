@@ -10,7 +10,7 @@ import Logo2 from "../assets/logos/IIC (2).png";
 import Logo3 from "../assets/logos/tkm-logo.png";
 import Footer from "./Footer.jsx";
 import LogoContainer from "./Logos.jsx";
-
+import Container from "./Container.jsx";
 
 
 const Home = () => {
@@ -72,6 +72,7 @@ const Home = () => {
                 </div>
             </div>
             <LogoContainer/>
+            <Container/>
             <About/>
             {/* <Theme/> */}
             <Prizes/>
