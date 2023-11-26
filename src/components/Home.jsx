@@ -72,9 +72,9 @@ const Home = () => {
                 </div>
             </div>
             <LogoContainer/>
+            <Container/>
             <About/>
             {/* <Theme/> */}
-            <Container/>
             <Prizes/>
             <CustomizedTimeline/>
             <FAQ/>
