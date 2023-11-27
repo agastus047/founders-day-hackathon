@@ -17,7 +17,7 @@ const About = () =>
                   Development.
                 </p>
             </div>
-            <div className="relative p-5 flex items-center   lg:w-1/2 min-h-full ">
+            <div className="relative p-5 flex items-center   lg:w-1/3 min-h-full ">
               <img src={pic}/>  
 
             </div>
