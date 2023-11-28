@@ -65,7 +65,7 @@ function FAQ() {
   ];
 
   return (
-    <div data-aos="fade" className="bg-[#202428]">
+    <div data-aos="fade" className="bg-black">
       <div className="p-5 bg-light-blue">
         <div className="flex justify-center items-start my-2">
           <div className="w-full sm:w-10/12 md:w-128 my-1">
@@ -74,7 +74,7 @@ function FAQ() {
             </h2>
             <ul className="flex flex-col gap-2 mt-8">
               {faqData.map((faqItem) => (
-                <li key={faqItem.id} className="my-2 shadow-lg bg-gray-800">
+                <li key={faqItem.id} className="my-2 shadow-lg bg-black border border-white p-4 rounded-xl">
                   <h2
                     onClick={() => handleClick(faqItem.id)}
                     className="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"

@@ -19,10 +19,10 @@ const Prizes = () =>
             SPECIAL PRIZE
          </div>
         
-         <div className="bg-gradient-to-r from-blue-700 from-10%  to-green-500 to-100%  flex gap-2 md:gap-8 items-center justify-center md:mx-32 lg:mx-64 mx-8 rounded-3xl p-5 lg:px-16" data-aos="flip-up" 
+         <div className="bg-gradient-to-b from-[#1b0362] to-[#50fefe]  flex gap-2 md:gap-8 items-center justify-center md:mx-32 lg:mx-64 mx-8 rounded-3xl p-5 lg:px-16" data-aos="flip-up" 
      data-aos-duration="2000">
-         <div className="max-w-[40%]"><img src={best} /></div>
-         <div className="flex flex-col gap-5 lg:gap-10 items-center justify-center lg:w-full">
+         {/* <div className="max-w-[40%]"><img src={best} /></div> */}
+         <div className="flex flex-col gap-5 lg:gap-10 items-center justify-center lg:w-full ">
             <div className='font-bold text-xl md:text-3xl lg:text-5xl text-center text-white'>Innovation By TKM</div>
             <div className='text-xl md:text-2xl lg:text-4xl text-white  font-semibold'>₹30000</div>
             </div>
