@@ -77,7 +77,7 @@ function FAQ() {
                 <li key={faqItem.id} className="my-2 shadow-lg bg-black border border-white p-4 rounded-xl">
                   <h2
                     onClick={() => handleClick(faqItem.id)}
-                    className="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
+                    className="flex flex-row justify-between items-center  p-3 cursor-pointer"
                   >
                     <span className="text-xl md:text-2xl text-white">
                       {faqItem.question}

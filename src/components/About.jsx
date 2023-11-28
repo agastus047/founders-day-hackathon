@@ -7,7 +7,7 @@ const About = () =>
         <div className="flex  w-full flex-col lg:flex-row justify-around h-full bg-black border border-white p-4 rounded-xl">
             <div className=" text-left flex flex-col h-full w-full lg:w-1/2 p-10 gap-5">
                 <h1 className="font-bold text-5xl mb-2 underline underline-offset-8 decoration-dashed leading-snug">About <span className=' text-transparent bg-gradient-to-b from-[#1b0362] to-[#50fefe] bg-clip-text'>HACK4TKM</span></h1>
-                <p className="text-start text-xl leading-relaxed">
+                <p className=" text-xl  text-justify">
                 Amidst the celebration of Founder’s Day 2024, get ready to
     ignite the spark of innovation with HACK4TKM – a national-level hackathon, organized by TKM College of Engineering (TKMCE),
 Kollam, in collaboration with Innovation and Entrepreneurship

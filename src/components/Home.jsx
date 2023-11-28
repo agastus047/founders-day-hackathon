@@ -77,11 +77,11 @@ const Home = () => {
     </div>
                 </div>
             </div>
+            <LogoContainer/>
             <Container/>
             <About/>
             {/* <Theme/> */}
             <Prizes/>
-            <LogoContainer/>
             <CustomizedTimeline/>
             <FAQ/>
             <Footer/>
