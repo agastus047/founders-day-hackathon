@@ -19,7 +19,7 @@ const Prizes = () =>
             SPECIAL PRIZE
          </div>
         
-         <div className="bg-gradient-to-b from-[#1b0362] to-[#50feff]  flex gap-2 md:gap-8 items-center justify-center md:mx-32 lg:mx-64 mx-8 rounded-3xl p-5 lg:px-16" data-aos="flip-up" 
+         <div className="bg-gradient-to-l from-[#1b0362] to-[#50feff]  flex gap-2 md:gap-8 items-center justify-center md:mx-32 lg:mx-64 mx-8 rounded-3xl p-5 lg:px-16" data-aos="flip-up" 
      data-aos-duration="2000">
          {/* <div className="max-w-[40%]"><img src={best} /></div> */}
          <div className="flex flex-col gap-5 lg:gap-10 items-center justify-center lg:w-full ">

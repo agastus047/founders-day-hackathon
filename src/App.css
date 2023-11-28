@@ -7,3 +7,21 @@ body {
   width: 100%;
   height: 100%;
 }
+@keyframes neon-border {
+  0% {
+    border-image-source: linear-gradient(45deg, #1b0362, #50feff);
+  }
+  50% {
+    border-image-source: linear-gradient(45deg, #50feff, #1b0362);
+  }
+  100% {
+    border-image-source: linear-gradient(45deg, #1b0362, #50feff);
+  }
+}
+
+.border-gradient-animation {
+  border-image-slice: 1;
+  border-image-width: 2px;
+  animation: neon-border 5s infinite alternate-reverse;
+  
+}
