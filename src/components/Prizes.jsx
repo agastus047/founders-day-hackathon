@@ -23,7 +23,7 @@ const Prizes = () =>
      data-aos-duration="2000">
          {/* <div className="max-w-[40%]"><img src={best} /></div> */}
          <div className="flex flex-col gap-5 lg:gap-10 items-center justify-center lg:w-full ">
-            <div className='font-bold text-xl md:text-3xl lg:text-5xl text-center text-white'>Innovation By TKM</div>
+            <div className='font-bold text-xl md:text-3xl lg:text-5xl text-center text-white'>Innovation by TKM</div>
             <div className='text-xl md:text-2xl lg:text-4xl text-white  font-semibold'>₹30000</div>
             </div>
          </div>

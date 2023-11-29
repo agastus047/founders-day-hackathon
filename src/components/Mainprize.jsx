@@ -4,12 +4,12 @@ import third from '../assets/third.png'
 
 
 const Mainprize = () => {
-    let prizestl = 'text-xl lg:text-2xl text-transparent bg-gradient-to-b from-[#1b0362] to-[#50fefe] bg-clip-text text-transparent bg-clip-text  font-semibold';
+    let prizestl = 'text-xl lg:text-5xl text-transparent bg-gradient-to-b from-[#1b0362] to-[#50fefe] bg-clip-text text-transparent bg-clip-text  font-semibold';
   return (
  <div className="flex flex-row  justify-center  mb-12 lg:mb-20 ">
   <div className="flex flex-col   items-center mt-24" data-aos="fade-up">
    <img src={second} alt="" className="lg:max-w-[70%]"/>
-   <p className={prizestl}>₹50,000</p>
+   <p className={prizestl} >₹50,000</p>
      </div>
      <div className="flex flex-col  items-center " data-aos="fade-down">
      <img src={first} alt="" className="lg:max-w-[70%]"/>
