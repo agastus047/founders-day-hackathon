@@ -53,7 +53,7 @@ const Home = () => {
                     <InfoIcon/>
                     <span>Rules & guidelines</span>
                 </a>
-                <div className="mt-40 md:w-[35rem] mx-auto text-center flex flex-col gap-4 md:pl-10">
+                <div className="mt-20  md:w-[35rem] mx-auto text-center flex flex-col gap-4 md:pl-10 ">
                     <div className="flex justify-center">
                         <div className="flex gap-4">
                             <img src={Logo3} alt="logo3" className="h-[35px]"></img>
