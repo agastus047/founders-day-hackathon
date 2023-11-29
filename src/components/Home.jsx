@@ -12,7 +12,7 @@ import Footer from "./Footer.jsx";
 import LogoContainer from "./Logos.jsx";
 import Container from "./Container.jsx";
 import hack4tkm_color from "../assets/logos/HACK4TKM_COLOR.png"
-import hack4tkm from "../assets/hack.png"
+import tkm_it from "../assets/tkm_it.png"
 
 const Home = () => {
     const [vantaEffect, setVantaEffect] = useState(null);
@@ -57,8 +57,11 @@ const Home = () => {
                     <div className="flex justify-center">
                         <div className="flex gap-4">
                             <img src={Logo3} alt="logo3" className="h-[35px]"></img>
+                            <img src={tkm_it} alt="logo1" className="h-[35px]"></img>
                             <img src={Logo1} alt="logo1" className="h-[35px]"></img>
                             <img src={Logo2} alt="logo2" className="h-[35px]"></img>
+
+                            
                         </div>
                     </div>
                     {/* <div className="text-[3.3rem] leading-tight font-bold md:text-8xl bg-gradient-to-b from-[#1b0362] to-[#50fefe] bg-clip-text text-transparent">HACK4TKM</div> */}
