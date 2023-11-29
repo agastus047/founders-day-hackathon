@@ -75,7 +75,7 @@ const Home = () => {
                     <div className="flex justify-center items-center">
         <div className="apply-button" 
             data-hackathon-slug="hack4tkm" 
-            data-button-theme="dark"
+            data-button-theme="dark-inverted"
             style={{height: 44, width: 312}}
         ></div>
     </div>
