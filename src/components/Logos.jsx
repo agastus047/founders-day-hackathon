@@ -4,7 +4,7 @@ import Polygon from "../assets/logos/Polygon_Dark.png"
 import Replit from "../assets/logos/replit_dark.png"
 const LogoContainer = () => {
   return (
-    <div className='mt-10 lg:ml-[4%] '>
+    <div className='mt-10 lg:ml-[3.5%] '>
       <div data-aos="fade" className="mt-10  flex flex-col md:flex-row justify-center items-center gap-5 md:gap-10">
         <a href="https://devfolio.co"><img
           className="mb-4 md:mb-0 md:mr-4 w-100 h-24"
