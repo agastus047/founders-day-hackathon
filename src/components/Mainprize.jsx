@@ -1,6 +1,6 @@
-import first from '../assets/first2.png'
-import second from '../assets/second2.png'
-import third from '../assets/third2.png'
+import first from '../assets/first.png'
+import second from '../assets/second.png'
+import third from '../assets/third.png'
 
 
 const Mainprize = () => {
