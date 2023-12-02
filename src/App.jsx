@@ -12,7 +12,7 @@ function App() {
     AOS.refresh();
   }, [])
   return (
-    <div className='min-h-screen flex flex-col font-sans'>
+    <div className='min-h-screen flex flex-col font-sans bg-black'>
       <Home/>
     </div>
   )
