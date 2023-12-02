@@ -52,17 +52,17 @@ const Home = () => {
         // <CountdownClock/>
         <div className="bg-black">
             <div ref={myRef} className="min-h-screen p-5 text-white">
-                <a href="https://seemly-jury-e03.notion.site/HACK4TKM-HACKATHON-6a46f80f7af24ed6bdfcd73806db808e#7857277b7a5846ac92960124e6a0a367" target="_blank" className="hidden text-white md:flex md:justify-end md:items-center md:gap-2">
+                <a href="https://seemly-jury-e03.notion.site/HACK4TKM-HACKATHON-6a46f80f7af24ed6bdfcd73806db808e#7857277b7a5846ac92940124e6a0a367" target="_blank" className="hidden text-white md:flex md:justify-end md:items-center md:gap-2">
                     <InfoIcon/>
                     <span>Rules & guidelines</span>
                 </a>
-                <div className="mt-20  md:w-[35rem] mx-auto text-center flex flex-col gap-4 md:pl-10 ">
+                <div className="mt-20  md:w-[40rem] mx-auto text-center flex flex-col gap-4 md:pl-10 ">
                     <div className="flex justify-center">
-                        <div className="flex gap-4">
-                            <img src={Logo3} alt="logo3" className="h-[35px]"></img>
-                            <img src={Logo1} alt="logo1" className="h-[35px]"></img>
-                            <img src={Logo2} alt="logo2" className="h-[35px]"></img>
-                            <img src={tkm_it} alt="logo1" className="h-[35px]"></img>
+                        <div className="flex gap-4 ">
+                            <img src={Logo3} alt="logo3" className="h-[40px] ml-2"></img>
+                            <img src={Logo1} alt="logo1" className="h-[40px] ml-2"></img>
+                            <img src={Logo2} alt="logo2" className="h-[40px] ml-2"></img>
+                            <img src={tkm_it} alt="logo1" className="h-[40px] ml-2"></img>
 
 
                             
