@@ -60,9 +60,9 @@ const Home = () => {
                     <div className="flex justify-center">
                         <div className="flex gap-4 ">
                             <img src={Logo3} alt="logo3" className="h-[40px] "></img>
-                            <img src={Logo1} alt="logo1" className="h-[40px] ml-2"></img>
-                            <img src={Logo2} alt="logo2" className="h-[40px] ml-2"></img>
-                            <img src={tkm_it} alt="logo1" className="h-[40px] ml-2"></img>
+                            <img src={Logo1} alt="logo1" className="h-[40px] ml-1.5"></img>
+                            <img src={Logo2} alt="logo2" className="h-[40px] ml-1.5"></img>
+                            <img src={tkm_it} alt="logo1" className="h-[40px] ml-1.5"></img>
 
 
                             
