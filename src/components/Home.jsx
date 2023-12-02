@@ -76,7 +76,7 @@ const Home = () => {
                     </div>
                     <div className="text-3xl md:text-4xl font-semibold">Feb 17 | 18</div>
                     {/* <div><button className="rounded-full bg-blue-700 hover:bg-white hover:text-black py-3 px-5 md:px-8 text-xl">Register Now</button></div> */}
-                    <div className="flex justify-center items-center mt-20">
+                    <div className="flex justify-center items-center mt-15">
         <div className="apply-button" 
             data-hackathon-slug="hack4tkm" 
             data-button-theme="dark"
