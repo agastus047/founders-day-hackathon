@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import hack4tkm_color from "../assets/logos/HACK4TKM_COLOR3.png";
+import hack4tkm_color from "../assets/logos/HACK4TKM_COLOR2.png";
 import { ThreeCircles } from 'react-loader-spinner';
 
 const MainLogo = () => {
