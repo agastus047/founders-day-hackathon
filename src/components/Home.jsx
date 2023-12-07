@@ -15,6 +15,7 @@ import hack4tkm_color from "../assets/logos/HACK4TKM_COLOR2.png"
 import tkm_it from "../assets/tkm_it2.png"
 import CountdownClock from "./ComingSoon.jsx";
 import MainLogo from "./MainLogo.jsx";
+import Theme from "./Theme.jsx"
 
 const Home = () => {
     const [vantaEffect, setVantaEffect] = useState(null);
@@ -88,7 +89,7 @@ const Home = () => {
             <LogoContainer/>
             <Container/>
             <About/>
-            {/* <Theme/> */}
+            <Theme/>
             <Prizes/>
             <CustomizedTimeline/>
             <FAQ/>
