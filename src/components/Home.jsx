@@ -60,10 +60,10 @@ const Home = () => {
                 <div className="mt-20  md:w-[40rem] mx-auto text-center flex flex-col gap-4 md:pl-10 ">
                     <div className="flex justify-center">
                         <div className="flex gap-4 ">
-                            <img src={Logo3} alt="logo3" className="h-[40px] "></img>
-                            <img src={Logo1} alt="logo1" className="h-[40px] ml-1.5"></img>
-                            <img src={Logo2} alt="logo2" className="h-[40px] ml-1.5"></img>
-                            <img src={tkm_it} alt="logo1" className="h-[40px] ml-1.5"></img>
+                            <img src={Logo3} alt="logo3" className="h-[30px] "></img>
+                            <img src={Logo1} alt="logo1" className="h-[30px] ml-1.5"></img>
+                            <img src={Logo2} alt="logo2" className="h-[30px] ml-1.5"></img>
+                            <img src={tkm_it} alt="logo1" className="h-[30px] ml-1.5"></img>
 
 
                             
