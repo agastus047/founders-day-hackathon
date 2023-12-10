@@ -1,7 +1,7 @@
 import Mainprize from "./Mainprize";
 import Prizecard from "./Prizecard"
 import prizelist from './prizelist'
-import best from '../assets/logos/tkm-logo.png'
+
 const Prizes = () =>
 {
     const cards = prizelist.map(item =>
@@ -10,8 +10,8 @@ const Prizes = () =>
     ));
     
     return(
-        <div className="lg:mt-16">
-         <div className="text-white font-bold text-4xl lg:text-5xl text-center my-4 ">
+        <div className="lg:mt-16 ">
+         <div className="text-white font-bold text-4xl lg:text-5xl text-center pt-8 md:my-4">
             PRIZES
          </div>
          <Mainprize/>
