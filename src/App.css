@@ -22,8 +22,10 @@ body {
 
 .border-gradient-animation {
   border-image-slice: 1;
-  border-image-width: 3px;
+  border-image-width: 4px;
   border-radius: 25%;
+  clip-path: inset(0px round 5px);
+
   animation: neon-border 5s infinite alternate-reverse;
   
 }
@@ -37,7 +39,7 @@ body {
 }
 .gradient-text {
   background: linear-gradient(
-      to right,
+      to left,
       #1b0362 20%,
       #00affa 30%,
       #50feff 70%,
