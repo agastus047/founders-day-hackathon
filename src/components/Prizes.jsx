@@ -24,7 +24,7 @@ const Prizes = () =>
          {/* <div className="max-w-[40%]"><img src={best} /></div> */}
          <div className="flex flex-col gap-5 lg:gap-10 items-center justify-center lg:w-full ">
             <div className='font-bold text-2xl  lg:text-5xl text-center text-white'>Innovation by TKM</div>
-            <div className='text-xl md:text-2xl lg:text-4xl text-white  font-semibold'>₹30000</div>
+            <div className='text-xl md:text-2xl lg:text-4xl text-white  font-semibold'>₹30,000</div>
             </div>
          </div>
          <div className="text-white font-bold text-4xl text-center my-16 lg:text-5xl">
