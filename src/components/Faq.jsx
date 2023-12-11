@@ -74,7 +74,7 @@ function FAQ() {
             </h2>
             <ul className="flex flex-col gap-2 mt-8">
               {faqData.map((faqItem) => (
-                <li key={faqItem.id} className="my-2 shadow-lg bg-black border border-white p-4 rounded-xl">
+                <li key={faqItem.id} className="my-2 shadow-lg bg-black border border-gradient-animation p-4 rounded-xl">
                   <h2
                     onClick={() => handleClick(faqItem.id)}
                     className="flex flex-row justify-between items-center  p-3 cursor-pointer"

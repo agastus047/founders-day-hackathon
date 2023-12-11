@@ -22,7 +22,8 @@ body {
 
 .border-gradient-animation {
   border-image-slice: 1;
-  border-image-width: 2px;
+  border-image-width: 3px;
+  border-radius: 25%;
   animation: neon-border 5s infinite alternate-reverse;
   
 }

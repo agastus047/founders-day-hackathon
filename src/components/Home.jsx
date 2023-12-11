@@ -76,7 +76,8 @@ const Home = () => {
                     <h2 className="font-bold  text-5xl text-transparent bg-gradient-to-b from-[#1b0362] to-[#50fefe] bg-clip-text">Build beyond limits</h2> */}
 <MainLogo/>
                     </div>
-                    <div className="text-3xl md:text-4xl font-semibold">Feb 17 | 18</div>
+                    <div className="text-3xl md:text-4xl font-semibold text-transparent bg-gradient-to-b from-[#1b0362] to-[#50fefe] bg-clip-text">February 2024</div>
+                    <div className="text-2xl md:text-4xl font-semibold text-transparent bg-gradient-to-t from-[#1b0362] to-[#50fefe] bg-clip-text">16 | 17 | 18</div>
                     {/* <div><button className="rounded-full bg-blue-700 hover:bg-white hover:text-black py-3 px-5 md:px-8 text-xl">Register Now</button></div> */}
                     <div className="flex justify-center items-center mt-10">
         <div className="apply-button" 

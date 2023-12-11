@@ -30,7 +30,8 @@ const CountdownClock = () => {
       <div className="  flex flex-col items-center justify-center">
         
         <img src={hack4tkm_color} alt="Coming Soon" className="w-[40%] h-[40%]" />
-        <div className='text-2xl font-semibold mb-2 '>Feb 17 | 18</div>
+        <div className='text-2xl font-semibold mb-2 '>February 2024</div>
+        <div className='text-2xl font-semibold mb-2 '>16| 17 | 18</div>
 
         <div className="flex items-center space-x-4 mb-4 ">
         <div className="text-4xl font-bold">{countdown.days}d:</div>
