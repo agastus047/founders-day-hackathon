@@ -4,10 +4,10 @@ import third from '../assets/third.png'
 
 
 const Mainprize = () => {
-    let prizestl = 'text-xl lg:text-5xl text-transparent bg-gradient-to-b from-[#1b0362] to-[#50fefe] bg-clip-text text-transparent bg-clip-text  font-semibold';
+    let prizestl = 'text-3xl lg:text-[2.75rem] text-transparent bg-gradient-to-b from-[#1b0362] to-[#50fefe] bg-clip-text text-transparent bg-clip-text  font-semibold';
   return (
- <div className="flex flex-row  justify-center  mb-12 lg:mb-20 ">
-  <div className="flex flex-col   items-center mt-24" data-aos="fade-up">
+ <div className="flex flex-col md:flex-row  justify-center  mb-12 lg:mb-20 " >
+  <div className="md:flex flex-col  hidden items-center md:mt-24" data-aos="fade-up">
    <img src={second} alt="" className="lg:max-w-[70%]"/>
    <p className={prizestl} >₹50,000</p>
      </div>
@@ -15,7 +15,11 @@ const Mainprize = () => {
      <img src={first} alt="" className="lg:max-w-[70%]"/>
      <p className={prizestl}>₹1,00,000</p>
      </div>
-     <div className="flex flex-col  items-center mt-24 " data-aos="fade-up">
+     <div className="flex flex-col  md:hidden items-center md:mt-24" data-aos="fade-up">
+   <img src={second} alt="" className="lg:max-w-[70%]"/>
+   <p className={prizestl} >₹50,000</p>
+     </div>
+     <div className="flex flex-col  items-center md:mt-24 " data-aos="fade-up">
      <img src={third} alt="" className="lg:max-w-[70%]"/>
      <p className={prizestl}>₹30,000</p>
      </div>

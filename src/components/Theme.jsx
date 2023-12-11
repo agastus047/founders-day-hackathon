@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-
+import { useState,useEffect } from "react";
 const Theme = () => {
   const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   const [showCountdown, setShowCountdown] = useState(true);
