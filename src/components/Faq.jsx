@@ -20,7 +20,8 @@ function FAQ() {
     {
       id: 2,
       question: "Is there a theme for this hackathon?",
-      answer: "Yes, the theme is Smart and Sustainable Designs for Agriculture,Food and Rural Development.",
+      answer: "Yes, the theme will be released when registrations starts",
+      // answer: "Yes, the theme is Smart and Sustainable Designs for Agriculture,Food and Rural Development.",
     },
     {
       id: 3,
