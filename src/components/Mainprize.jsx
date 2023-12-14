@@ -4,7 +4,7 @@ import third from '../assets/third.png'
 
 
 const Mainprize = () => {
-    let prizestl = 'text-3xl lg:text-[2.75rem] text-transparent bg-gradient-to-b from-[#1b0362] to-[#50fefe] bg-clip-text text-transparent bg-clip-text  font-semibold';
+    let prizestl = 'text-3xl lg:text-[2.75rem] text-transparent bg-gradient-to-b from-[#148ef9] to-[#50feff] bg-clip-text text-transparent bg-clip-text  font-semibold';
   return (
  <div className="flex flex-col md:flex-row  justify-center  mb-12 lg:mb-20 " >
   <div className="md:flex flex-col  hidden items-center md:mt-24" data-aos="fade-up">

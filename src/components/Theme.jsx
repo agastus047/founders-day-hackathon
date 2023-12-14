@@ -34,7 +34,7 @@ const Theme = () => {
       <div className="mt-5 text-xl lg:text-3xl bg-clip-text font-extrabold h-max uppercase text-center">
         {showCountdown ? (
           <div>
-             <p className="text-transparent bg-gradient-to-t from-[#1b0362] to-[#50fefe] bg-clip-text leading-relaxed">
+             <p className="text-transparent bg-gradient-to-t from-[#148ef9] to-[#50feff] bg-clip-text leading-relaxed">
             {countdown.days} days: {countdown.hours} hours: {countdown.minutes} minutes: {countdown.seconds} seconds
           </p>
             </div>

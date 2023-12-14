@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import hack4tkm_color from "../assets/logos/HACK4TKM_COLOR2.png";
+import hack4tkm_color from "../assets/logos/HACK4TKM_COLOR4.png";
 import { ThreeCircles } from 'react-loader-spinner';
 
 const MainLogo = () => {
@@ -26,7 +26,7 @@ const MainLogo = () => {
             visible={showLoader}
             ariaLabel="three-circles-rotating"
             outerCircleColor="#50fefe"
-            innerCircleColor="#1b0362"
+            innerCircleColor="#148ef9"
             middleCircleColor="#50fefe"
           />
           </div>
@@ -35,7 +35,7 @@ const MainLogo = () => {
           <div>
              <img src={hack4tkm_color} alt="hack4tkm_color" className="" />
 
-{/* <h2 className="font-bold text-5xl text-transparent bg-gradient-to-b from-[#1b0362] to-[#50fefe] bg-clip-text">Build beyond limits</h2> */}
+{/* <h2 className="font-bold text-5xl text-transparent bg-gradient-to-b from-[#148ef9] to-[#50feff] bg-clip-text">Build beyond limits</h2> */}
             </div>
          
         )}

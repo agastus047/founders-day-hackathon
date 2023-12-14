@@ -10,13 +10,13 @@ body {
 }
 @keyframes neon-border {
   0% {
-    border-image-source: linear-gradient(45deg, #1b0362, #50feff);
+    border-image-source: linear-gradient(45deg, #50feff, #148ef9);
   }
   50% {
-    border-image-source: linear-gradient(45deg, #50feff, #1b0362);
+    border-image-source: linear-gradient(45deg, #50feff, #148ef9);
   }
   100% {
-    border-image-source: linear-gradient(45deg, #1b0362, #50feff);
+    border-image-source: linear-gradient(45deg, #50feff, #148ef9);
   }
 }
 
@@ -40,10 +40,10 @@ body {
 .gradient-text {
   background: linear-gradient(
       to left,
-      #1b0362 20%,
+      #148ef9 20%,
       #00affa 30%,
       #50feff 70%,
-      #1b0362 80%
+      #148ef9 80%
   );
   -webkit-background-clip: text;
   background-clip: text;
