@@ -40,7 +40,7 @@ const Theme = () => {
             </div>
          
         ) : (
-          <p className="text-white">Smart and Sustainable Designs for Agriculture,Food and Rural Development</p>
+          <p className="text-3xl text-transparent bg-gradient-to-t from-[#148ef9] to-[#50feff] bg-clip-text leading-relaxed">Smart and Sustainable Designs for Agriculture,Food and Rural Development</p>
         )}
       </div>
     </div>
