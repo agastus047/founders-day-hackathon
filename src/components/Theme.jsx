@@ -40,7 +40,7 @@ const Theme = () => {
             </div>
          
         ) : (
-          <p className="text-white">Coming Soon</p>
+          <p className="text-white">Smart and Sustainable Designs for Agriculture,Food and Rural Development</p>
         )}
       </div>
     </div>
