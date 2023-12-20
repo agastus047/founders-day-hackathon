@@ -36,7 +36,7 @@ function FAQ() {
     {
       id: 5,
       question: "What are the criteria for participation?",
-      answer: "The participant must be a student and a non working proffessional.",
+      answer: "The participant must be a student and a non working professional.",
     },
     {
       id: 6,
@@ -62,6 +62,11 @@ function FAQ() {
       id: 10,
       question: "Will there be shortlisting for the offline hackathon?",
       answer: "Yes, 20 teams will be selected based on the abstract submitted.",
+    },
+    {
+      id: 11,
+      question: "Does my project have to include all three domains-agriculture, food, and rural development",
+      answer: "Any or all of these domains can be chosen for the project idea",
     },
   ];
 
