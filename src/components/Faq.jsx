@@ -31,7 +31,7 @@ function FAQ() {
     {
       id: 4,
       question: "Will judgement be separate for hardware and software?",
-      answer: "No we value the idea and product that can have the most significant impact and adhere the best of the theme.",
+      answer: "No, we value the idea and product that can have the most significant impact and best adhere to the theme.",
     },
     {
       id: 5,
@@ -46,17 +46,17 @@ function FAQ() {
     {
       id: 7,
       question: "How many team members are allowed?",
-      answer: "There should be minimum 2-4 per team.",
+      answer: "There should be a minimum of 2-4 per team.",
     },
     {
       id: 8,
       question: "Is this hackathon only for students of TKM?",
-      answer: "No, this hacakathon is open for all students.",
+      answer: "No, this hacakathon is open to all students.",
     },
     {
       id: 9,
       question: "Is there a registration fee?",
-      answer: "The registration will be completely free of cost.",
+      answer: "The registration is completely free of cost.",
     },
     {
       id: 10,
@@ -65,8 +65,8 @@ function FAQ() {
     },
     {
       id: 11,
-      question: "Does my project have to include all three domains-agriculture, food, and rural development",
-      answer: "Any or all of these domains can be chosen for the project idea",
+      question: "Does my project have to include all three domains-agriculture, food, and rural development?",
+      answer: "Any or all of these domains can be chosen for the project idea.",
     },
   ];
 

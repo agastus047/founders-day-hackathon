@@ -12,7 +12,7 @@ const About = () =>
                 Amidst the celebration of Founder’s Day 2024, get ready to
     ignite the spark of innovation with HACK4TKM – a national-level hackathon, organized by TKM College of Engineering (TKMCE),
 Kollam, in collaboration with Innovation and Entrepreneurship
-Development Cell TKMCE, Institute's Innovation Council and
+Development Centre TKMCE, Institute's Innovation Council and
 TKM Institute of Technology, Kollam. 
                 </p>
             </div>
