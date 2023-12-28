@@ -5,7 +5,7 @@ const prizelist =[
  {
    id:6,
    iconlink:best,
-   title:'Choice Awards',
+   title:'Choice Award',
    prize:'₹20,000',
 },
 {
