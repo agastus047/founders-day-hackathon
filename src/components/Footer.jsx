@@ -13,7 +13,7 @@ const Footer = () =>
             <div className="flex gap-4 justify-evenly mx-6 my-6 border border-gradient-animation p-4 rounded-xl">
             {/* <div className="flex gap-4 justify-evenly mx-6 my-6 border-2 border-gradient-animation p-4 rounded-xl"> */}
               <a href='https://www.instagram.com/hack4tkm/'> <InstagramIcon sx={{ fontSize: 40}} className='hover:text-white'/></a> 
-              <a href='"https://www.linkedin.com/company/iedc-tkmce/?originalSubdomain=in"'> <LinkedInIcon sx={{ fontSize: 40 }} className='hover:text-white'/></a>
+              <a href='https://www.linkedin.com/company/iedc-tkmce/'> <LinkedInIcon sx={{ fontSize: 40 }} className='hover:text-white'/></a>
               <a href="https://twitter.com/iedctkmce/"><TwitterIcon sx={{ fontSize: 40 }} className='hover:text-white'/></a>
 {/*               <a href='"https://www.facebook.com/tkmiedc'><FacebookIcon sx={{ fontSize: 40 }} className='hover:text-blue-600'/></a> 
               <a href='" https://wa.me/+919207408109"'> <WhatsAppIcon sx={{ fontSize: 40 }} className='hover:text-green-500'/></a> */}

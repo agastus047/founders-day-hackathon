@@ -68,6 +68,16 @@ function FAQ() {
       question: "Does my project have to include all three domains-agriculture, food, and rural development?",
       answer: "Any or all of these domains can be chosen for the project idea.",
     },
+    {
+      id: 12,
+      question: "Must all team members be from TKM College to qualify for the Innovation by TKM track?",
+      answer: "Yes, they must be either from any institute of Group of TKM Colleges. ",
+    },
+    {
+      id: 13,
+      question: "Are there any facilities for hardware development?",
+      answer: "The Idea Lab will remain open for the entire duration of the hackathon, allowing participants to utilize available equipment and machinery.",
+    },
   ];
 
   return (
