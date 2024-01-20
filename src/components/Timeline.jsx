@@ -37,7 +37,7 @@ const CustomizedTimeline = () => {
         </div>
         <div data-aos="fade" className="col-span-4 w-full h-full ">
           <div className="w-full h-full bg-black border border-white p-4 rounded-md p-2 py-4 md:pl-4 border border-gradient-animation [#148ef9]">
-            <h1 className="text-white text-xl text-center font-medium py-2">20 January 2024</h1>
+            <h1 className="text-white text-xl text-center font-medium py-2">22 January 2024</h1>
             <p className="text-gray-100 sm:text-xl text-md text-center mb-2">Announcement of Shortlisted 20 Teams </p>
           </div>
         </div>
