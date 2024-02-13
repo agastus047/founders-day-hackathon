@@ -41,7 +41,7 @@ function FAQ() {
     {
       id: 6,
       question: "Should I be physically present for hackathon?",
-      answer: "It is mandatory to be physically present at the venue for the hacakathon.",
+      answer: "It is mandatory to be physically present at the venue for the hackathon.",
     },
     {
       id: 7,
