@@ -16,6 +16,7 @@ import tkm_it from "../assets/tkm_it2.png"
 import CountdownClock from "./ComingSoon.jsx";
 import MainLogo from "./MainLogo.jsx";
 import Theme from "./Theme.jsx";
+import CountdownTimer from "./TImer.jsx";
 
 
 const Home = () => {
@@ -91,6 +92,7 @@ const Home = () => {
             <LogoContainer/>
             <Container/>
             <About/>
+            <CountdownTimer/>
             <Theme/>
             <Prizes/>
             <CustomizedTimeline/>
