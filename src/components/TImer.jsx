@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const Stopwatch = () => {
   const startTime = new Date("2024-02-16T18:00:00Z"); // 6:00 PM on February 16
-  const endTime = new Date("2024-02-18T01:30:00Z"); // 7:00 AM on February 18
+  const endTime = new Date("2024-02-18T04:00:00Z"); // 7:00 AM on February 18
   const timerDuration = 37 * 60 * 60; // 37 hours in seconds
 
   const calculateTimeRemaining = () => {
