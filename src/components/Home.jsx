@@ -92,7 +92,7 @@ const Home = () => {
             <LogoContainer/>
             <Container/>
             <About/>
-            <CountdownTimer/>
+            {/* <CountdownTimer/> */}
             <Theme/>
             <Prizes/>
             <CustomizedTimeline/>
